@@ -45,3 +45,12 @@
 .diferenciais__item--especialistas{
     background-image: url(../img/icone-quimica.png);
 }
+
+@media screen and (min-width: 1024px){
+    .diferenciais{
+        background-color: var(--cinza-claro);
+    }
+    .diferenciais__lista{
+        justify-content: space-around;
+    }
+}
